@@ -15,10 +15,4 @@ function calc() {
     num5 = parseInt(e);
   const total = num1 + num2 + num3 + num4 + num5;
     document.getElementById("result").innerHTML = total;
-
-  if (total >= 100) {
-    document.getElementById("level").innerHTML = "あなたは東大生です";
-  } else {
-    document.getElementById("level").innerHTML = "あなたはFランクです";
-  }
 }

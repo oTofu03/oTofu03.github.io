@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./custom.css">
+  <script type="text/javascript" src="./calc.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="operation">
+    <h1>得点計算ソフト</h1>
+    <p>数字を入力して確定ボタンを押すと自動で計算されます。</p>
+    <p>あなたの点数は...</p>
+    <p>"<span id="result" class="score_color">　　</span>"</p>
+    <p>点です！</p>
+    <button onclick="calc()">確定</button>
+    <button onclick="AllClear()">クリア</button>
+    <p id="level" class="level_color"></p>
+  </div>
+
+  <div class="input_box">
+    <div class="input_number">
+      <form action="#">
+        <p class="title">第１回：
+        <input type="number" id="num1" list="score" placeholder="得点を入力" autocomplete="off">
+        <datalist id="score">
+          <option value="0">
+          <option value="10">
+          <option value="20">
+          <option value="30">
+          <option value="40">
+          <option value="50">
+        </datalist>
+        </p>
+      </form>
+    </div>
+
+    <div class="input_number">
+      <form action="#">
+        <p class="title">第２回：
+        <input type="number" id="num2" list="score" placeholder="得点を入力" autocomplete="off">
+        <datalist id="score">
+          <option value="0">
+          <option value="10">
+          <option value="20">
+          <option value="30">
+          <option value="40">
+          <option value="50">
+        </datalist>
+        </p>
+      </form>
+    </div>
+
+    <div class="input_number">
+      <form action="#">
+        <p class="title">第３回：
+        <input type="number" id="num3" list="score" placeholder="得点を入力" autocomplete="off">
+        <datalist id="score">
+          <option value="0">
+          <option value="10">
+          <option value="20">
+          <option value="30">
+          <option value="40">
+          <option value="50">
+        </datalist>
+        </p>
+      </form>
+    </div>
+
+    <div class="input_number">
+      <form action="#">
+        <p class="title">第４回：
+          <input type="number" id="num4" list="score" placeholder="得点を入力" autocomplete="off">
+          <datalist id="score">
+            <option value="0">
+            <option value="10">
+            <option value="20">
+            <option value="30">
+            <option value="40">
+            <option value="50">
+          </datalist>
+        </p>
+      </form>
+    </div>
+
+    <div class="input_number">
+      <form action="#">
+        <p class="title">第５回：
+          <input type="number" id="num5" list="score" placeholder="得点を入力" autocomplete="off">
+          <datalist id="score">
+            <option value="0">
+            <option value="10">
+            <option value="20">
+            <option value="30">
+            <option value="40">
+            <option value="50">
+          </datalist>
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
